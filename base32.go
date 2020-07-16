@@ -6,8 +6,6 @@ import (
 	"github.com/bearmini/bitstream-go"
 )
 
-// TODO: hyphen
-
 func Encode(data []byte) []byte {
 	len := len(data)
 	r := bitstream.NewReader(bytes.NewReader(data), nil)
